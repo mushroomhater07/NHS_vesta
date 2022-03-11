@@ -49,6 +49,15 @@ i#ig{
 .ha4{
     width: auto;
 }
+.ha5{
+    width: auto;
+}
+.igga{
+    text-align: center;
+    padding-left:20px;
+}
+.igga:hover{
+}
 }
 .fullborder{
     width: 100%;

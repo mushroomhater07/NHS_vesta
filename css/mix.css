@@ -34,6 +34,10 @@ section{
     background: #CBE5FF;
     border-radius:20px;
     height: 200px;
+    transition: 0.5s;
+}
+.bordleft a img:hover{
+    background: rgba(0,0,0,0.5)
 }
 .bordleft a pre{
     border-radius: 10px;
@@ -45,7 +49,12 @@ section{
     color: #FFF;
     padding: 5px;
     font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
 }
+.bordleft a pre:hover{
+    box-shadow: 5px 5px 5px rgb(0, 15, 99);
+}
+
 .introboarder img{
     width: 250px;
     height: 280px;

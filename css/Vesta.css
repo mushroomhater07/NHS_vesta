@@ -1,28 +1,4 @@
-.gallery{
-    display: inline-block;
-    vertical-align: top;
-    box-align: middle;
-    margin: auto;
-    padding: 10px;
-}.gallery{
-    display: inline-block;
-    vertical-align: top;
-    box-align: middle;
-    margin: auto;
-    padding: 10px;
-}.gallery{
-    display: inline-block;
-    vertical-align: top;
-    box-align: middle;
-    margin: auto;
-    padding: 10px;
-}.gallery{
-    display: inline-block;
-    vertical-align: top;
-    box-align: middle;
-    margin: auto;
-    padding: 10px;
-}body{padding-top: 57px;}
+body{padding-top: 57px;}
 header{
     background: linear-gradient(rgba(168,168,168,0.8),#fffdff), url("../img/fireplace.gif");
     height: 700px;
@@ -39,6 +15,9 @@ header img{
     padding-top:150px;
     height: 420px;
     margin: 0 auto;
+}
+header h1{
+    text-shadow: 0 0px 2px rgb(9, 255, 0,0.7);
 }
 header a{
     color:#000;
@@ -70,9 +49,6 @@ header a:hover{
 }
 header i#arrow:hover {
     padding-top: 70px;
-}
-#gall{
-	margin-top:50px
 }
 #highlight{
     text-align: center;

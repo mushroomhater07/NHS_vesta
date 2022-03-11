@@ -15,6 +15,13 @@ section{
     float:left;
     margin-bottom:100px;
 }
+.sect{
+    margin: 0 2.5% 50px;
+    padding: 50px 0px;
+    border-radius: 40px;
+    background-color: #d2ffa2c7;
+    width: 45%;
+}
 @media (max-width:992px){
     .bordleft{display: block;width: 100%;}
     .bordright{display: block;width: 100%}

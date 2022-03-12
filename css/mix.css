@@ -1,5 +1,7 @@
+body{overflow: hidden;}
 section{
     margin-top: 100px;
+    height: 100vh;
     text-align: center;
     align-content: center;
     align-items: center;
@@ -19,7 +21,6 @@ section{
     margin: 0 2.5% 50px;
     padding: 50px 0px;
     border-radius: 40px;
-    background-color: #d2ffa2c7;
     width: 45%;
 }
 @media (max-width:992px){
@@ -31,6 +32,8 @@ section{
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
 }
+.yellow{ background-color:rgba(255, 238, 0, 0.74)}
+.green{    background-color: #d2ffa2c7;}
 .trade{
     margin-bottom: 50px;
     font-size: 20px;

@@ -274,3 +274,7 @@ footer{
     margin:30px;
     margin-top: 0;
 }
+@media (min-width: 992px){
+    .all{
+    margin:5px;
+}}

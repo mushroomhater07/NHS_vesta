@@ -1,12 +1,18 @@
 *{
     scroll-behavior: smooth;
 }
+a{
+    cursor:cell;
+}
 body {
     /**margin-top: 60px;**/
     cursor: url("../img/cursor.png"),auto;
 	background: linear-gradient(0deg,  #fff6ff,#ffffff) !important;
 	background:#FFF6FF;
 	background-size: 400% 400%;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
     padding:0;
     margin:0;
 }
@@ -64,10 +70,9 @@ i#ig{
 }
 .box {
 	margin: 20px auto;
-    width: 50%;
+    width: 100%;
 	padding-top: 30px;
     text-align: center;
-	border-radius: 50px;
 	padding-bottom: 20px;
 	transition: 0.5s;
 	font-family: 'Ubuntu', sans-serif;
@@ -77,9 +82,12 @@ i#ig{
     font-size: 23px;
 	color: #000;
 }
+.box a:hover{
+    color: rgb(0, 148, 0);
+}
 @media (max-width: 768px) {
     .box {
-    width: 95%;
+    width: 100%;
     float:none;}
 }
 
@@ -122,6 +130,9 @@ button:hover, button:active{
 	transform: scale(0.9);
 }
 }
+blockquote:hover{
+    transform: scale(1.25);
+}
 /*
 .box img:hover{
 	
@@ -133,16 +144,30 @@ button:hover, button:active{
  content */
 .title{
 	width: 100%;
-	height: 100px;
 	display: inline-block;
     text-align: center;
     font-size: 50px;
     font-weight: bold;
     font-family: 'Dongle', sans-serif;
-	transition: 0.1s;
-	padding-top: 110px; margin-top: -110px;
 }
-
+.title {
+    background: linear-gradient(270deg, rgb(107, 221, 0), rgb(18, 153, 0)) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms, color 500ms;
+    --bg-h: 100%;
+  }
+  .title:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+  .title{
+    padding-bottom: 26px;
+    margin-bottom: -27px;
+    --bg-h: 8px;
+    text-decoration: none;
+  }
+  .title:hover{
+      color: rgb(18, 153, 0);
+  }
 
 /* change it with title padding-top and margin-top
 .title:hover{
@@ -169,22 +194,23 @@ button:hover, button:active{
 }
 }
 .blank{
-	height:1px;
-	margin-bottom:-5px;
+    margin: 0;
+    padding: 0;
+    height: 0;  
 }
-
 .lblank{
 	background-color:rgba(0,0,0, 0.3);
 	height:5px;
     margin-top:20px;
+    transition: 0.5s;
 }
+
 /*Our Story*/
+#storyin{
+    margin: 0 5%;
+}
 .rightcomment{
-	display: block;
-    margin-right: 0;
-    margin-left: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0 0 0 auto !important;
 }
 .stor{
     border-radius: 10px;
@@ -192,12 +218,41 @@ button:hover, button:active{
     width: 60%;
     padding: 30px;
     transition:0.2s;
+    margin-top: 20px;
+    margin-bottom: 20px;  
 }
 .stor:hover, .stor:active{
 	box-shadow: 5px 5px 10px  #013300;
 	transform: scale(1.04);
 	
 }
+.stor h3{
+    padding: 10px;
+    margin: -10px;
+    background: linear-gradient(180deg, rgba(0, 219, 0, 0.877), rgba(0, 219, 0, 0.247)) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+    font-weight:700;
+}
+.stor h3:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+  .statement {
+    background: linear-gradient(90deg, #0080ff, rgba(0, 204, 255, 0.671)) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+  }
+  .statement:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+  .statement{
+    padding-bottom: 2px;
+    --bg-h: 5px;
+    text-decoration: none;
+  color: inherit;
+  }
 @media (max-width: 992px){
     .rightcomment{
         margin-right: auto;
@@ -207,9 +262,6 @@ button:hover, button:active{
         width: 100%;
     }
 }
-#storyin{
-margin: 5%;
-    }
 footer{
 	margin-top:15px;
 	bottom: 0;
@@ -217,4 +269,8 @@ footer{
 	height:35px;
 	background: linear-gradient(180deg,  #fff6ff,#ffffff) !important;
 	color: #000;
+}
+.all{
+    margin:30px;
+    margin-top: 0;
 }

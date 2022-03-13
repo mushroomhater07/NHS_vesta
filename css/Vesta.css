@@ -92,7 +92,18 @@ font-weight: 700;
     .gallery{
         padding: 0px;
         padding-bottom: 10px;
-        
+       
+    }
+    .galleryboarder{
+        width:auto;
+        overflow: scroll;
+        display: flex;
+        height: 500px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: center;
+        align-items: center;
     }
     .gallery img:hover , .gallery img:active{
     transform: scale(0.95);

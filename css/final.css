@@ -186,10 +186,13 @@ blockquote:hover{
     align-items: top;
 }
 .ig1, .ig2{
+    width: auto;
     margin:0 5px;
 }
 @media (max-width: 992px) {
     .full{
+        height: 600px;
+        overflow-y: scroll;
         width: 90%;
 		display:block;
 }

@@ -18,12 +18,13 @@ section{
     margin-bottom:100px;
 }
 .sect{
-    margin: 0 2.5% 50px;
+    margin: 0 20px 50px;
     padding: 50px 0px;
     border-radius: 40px;
     width: 45%;
 }
 @media (max-width:992px){
+    .sect{margin-left: 5px; margin-right: 5px;}
     .bordleft{display: block;width: 100%;}
     .bordright{display: block;width: 100%}
 }
@@ -47,7 +48,7 @@ section{
     transition: 0.5s;
 }
 @media (max-width:992px){
-    .bordleft a img{width:95%;}
+    .bordleft a img{width:95%; height:20%;}
     .bordleft a pre{width: 92% !important;}
 }
 .bordleft a img:hover{
@@ -68,10 +69,14 @@ section{
 .bordleft a pre:hover{
     box-shadow: 5px 5px 5px rgb(0, 15, 99);
 }
-
+.introboarder{
+    margin:0 auto;
+    width:95%;
+}
 .introboarder img{
     width: 250px;
     height: 280px;
+    margin: 5px;
 }
 .preview{
     margin-bottom: 50px !important;

@@ -61,8 +61,8 @@ font-weight: 700;
     box-shadow: inset 1440px 0 0 0 #54b3d6;
     color: white;}
 .gallery{
+    display: inline-block;
     vertical-align: top;
-    margin: auto;
     padding: 5px;
 }
 .newpic img{
@@ -84,7 +84,7 @@ font-weight: 700;
     padding: 5% 2%;
     margin:0 5px;
 }
-@media (max-width: 1040px) {
+@media (max-width: 992px) {
     .gallery{
         padding: 10px;
        
@@ -107,7 +107,7 @@ font-weight: 700;
         align-items: center;
     }
     .gallery img:hover , .gallery img:active{
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 }
 .section{

@@ -61,9 +61,7 @@ font-weight: 700;
     box-shadow: inset 1440px 0 0 0 #54b3d6;
     color: white;}
 .gallery{
-    display: inline-block;
     vertical-align: top;
-    box-align: middle;
     margin: auto;
     padding: 5px;
 }
@@ -83,7 +81,7 @@ font-weight: 700;
 }
 .galleryboarder{
     text-align: center;
-    padding: 5% 0;
+    padding: 5% 2%;
     margin:0 5px;
 }
 @media (max-width: 1040px) {

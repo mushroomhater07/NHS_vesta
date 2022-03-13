@@ -182,6 +182,7 @@ blockquote:hover{
 }*/
 /*instagram*/
 .full{
+    background-color: #c300ff28;
 	margin: auto;
 	display: flex;
     -ms-box-orient: horizontal;

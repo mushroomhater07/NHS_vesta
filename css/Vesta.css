@@ -42,7 +42,7 @@ header i#arrow{
 }
 
 header a:hover ~ i#arrow{
-    padding-top: 70px;
+    transform: translateY(50px);
 }
 @media (max-width: 700px){
     header a h1{margin-top: 10px;margin-bottom: 0;}
@@ -99,7 +99,8 @@ font-weight: 700;
        
     }
     .galleryboarder{
-        overflow: scroll;
+        background-color: #54b3d64f;
+        overflow-Y: scroll;
         display: inline-flex;
         -ms-box-orient: horizontal;
         display: -webkit-box;

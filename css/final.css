@@ -145,6 +145,7 @@ blockquote:hover{
  content */
 .title{
 	width: 100%;
+    color: rgba(0, 0, 0, 0.9);
 	display: inline-block;
     text-align: center;
     font-size: 50px;

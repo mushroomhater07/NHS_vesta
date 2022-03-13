@@ -15,21 +15,27 @@ header img{
     height: 420px;
     margin: 0 auto;
 }
-header h1{
+header a h1{
+    margin:  20px 0;
     text-shadow: 0 0px 2px rgb(9, 255, 0,0.7);
+}
+header a h1:hover{
+    text-shadow: none !important;
+    color: #000;
 }
 header a{
     color:#000;
-    border: 1px solid #000;
-    padding: 10px 25px;
     text-decoration: none;
     text-transform: uppercase;
+}
+.only{
+    border: 1px solid #000;
+    padding: 10px 25px;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;
     transition: all 0.5s cubic-bezier(0, 0, 0.21, 1)
 }
-
 header i#arrow{
     padding-top: 30px;
     transition: 1s;
@@ -38,7 +44,10 @@ header i#arrow{
 header a:hover ~ i#arrow{
     padding-top: 70px;
 }
-header a:hover{
+@media (max-width: 700px){
+    header a h1{margin-top: 10px;margin-bottom: 0;}
+}
+.only:hover{
     color:#000;
     border: 1px solid #92ffB9; 
     background: #92FFB9;

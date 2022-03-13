@@ -113,7 +113,7 @@ font-weight: 700;
         align-items: center;
     }
     .gallery img:hover , .gallery img:active{
-    transform: scale(0.95);
+    transform: scale(1.15);
 }
 }
 .section{

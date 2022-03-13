@@ -1,4 +1,4 @@
-body{overflow: hidden;}
+body{}
 section{
     margin-top: 100px;
     height: 100vh;
@@ -45,6 +45,10 @@ section{
     border-radius:20px;
     height: 200px;
     transition: 0.5s;
+}
+@media (max-width:992px){
+    .bordleft a img{width:95%;}
+    .bordleft a pre{width: 92% !important;}
 }
 .bordleft a img:hover{
     background: rgba(0,0,0,0.5)

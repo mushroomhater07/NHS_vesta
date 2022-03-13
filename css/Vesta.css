@@ -65,7 +65,7 @@ font-weight: 700;
     vertical-align: top;
     box-align: middle;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
 }
 .newpic img{
     height: 300px;
@@ -75,9 +75,7 @@ font-weight: 700;
     height: 380px;
     width: 280px;
 }
-.gallery img{
-    margin: 0;
-}
+
 .gallery img:hover , .gallery img:active{
     transition: transform 0.5s;
     transform: scale(1.4);
@@ -85,19 +83,17 @@ font-weight: 700;
 }
 .galleryboarder{
     text-align: center;
-    width: 100%;
-    padding: 3%;
+    padding: 5% 0;
+    margin:0 5px;
 }
 @media (max-width: 1040px) {
     .gallery{
-        padding: 0px;
-        padding-bottom: 10px;
+        padding: 10px;
        
     }
     .galleryboarder{
-        width:auto;
         overflow: scroll;
-        display: flex;
+        display: inline-flex;
         -ms-box-orient: horizontal;
         display: -webkit-box;
         display: -moz-box;
@@ -140,6 +136,7 @@ font-weight: 700;
 }
 .orange{
     background: #FFDEA7;
+    padding-bottom: 0px;
 }
 .red{
     background: #FFC7C8;

@@ -15,10 +15,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+          <!-- Button trigger modal -->
+      
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Trade fair</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="/img/sell.jpg" alt=""><img src="/img/sell1.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               <sub> Vesta</sub>
+            </div>
+          </div>
+        </div>
+      </div>
 </head>
 
 <body>
-  <div class="radial-gradient"></div>
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navbarblack"> 
     <a class="navbar-brand ml-3 my-0" style="font-family: 'Merriweather', serif;" href="#">
         <img src="img/Vesta.png" height="40" class="d-inline-block align-top" alt="">
@@ -47,7 +69,9 @@
     <script src="js/bootstrap-4.4.1.js"></script>
     <header>
                 <img src="img/Vesta.png"><br><a href="#end"><h1>Proudly introduce to you - Vesta</h1></a>
-                <a href="#gallery" class="only">Take a look</a><br>
+                <a href="#gallery" class="only">Take a look</a><button id="updates" class="only" type="button" data-toggle="modal" data-target="#exampleModal">
+                  Recent updates
+                </button><br>
                 <i class="fa-solid fa-angle-down fa-2xl" id="arrow"></i>
     </header>
     <div class="all">
@@ -94,7 +118,7 @@
       <article></div>
       <div class="stor">
         <h3>Our Story:</h3><br><article class="statement">
-        Consisting of a group of 14-17 year olds, Vesta
+        Consisting of a group of young innovators, Vesta
         came together at the end of 2021 in the hopes
         to compete in the Young Enterprise program
         by each investing £20 of share capital to start
